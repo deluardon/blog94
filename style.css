@@ -1,0 +1,27 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.header-container{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    background-color: rgb(104, 104, 104);
+    align-items: center;
+    
+}
+.menus{
+    display: flex;
+    font-size: 20px;
+    list-style: none;
+    gap: 12px;
+    
+}
+.banner-container{
+    height: 100vh;
+    background-image: url("./asset/image/background.jpg"),linear-gradient(45deg,rgb(41, 41, 41),rgb(145, 143, 143));
+    background-blend-mode: overlay;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
